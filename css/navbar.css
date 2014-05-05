@@ -1,0 +1,30 @@
+@charset "utf-8";
+/* CSS Document */
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+*, *:before, *:after { box-sizing: border-box; }
+
+html { height: 100%; width: 100%; background: aaa;}
+body { font: 15px/1em 'Open Sans', sans-serif; }
+
+/* Main Nav */
+#main-nav 			{ position: absolute; width: 100%; background: #bbb; z-index:1; height: 75px; left: 0; top:300px;} /* Height of header */
+#main-nav.fixed		{ position: fixed; top:0;}
+
+#main-nav li { float: left; text-align:center; width: 20%;}
+#main-nav .current a { background: #aaa; color: #fff;}
+#main-nav a	 { padding: 30px; display: block; color: #111; text-decoration: none; text-transform: uppercase;}
+#main-nav a:hover { background: #ddd;}
+
+/* Main Content */
+#main-wrapper { width: 85%; margin: 0 auto;}
+
+.wrapper		  { height: 375px; text-align: center; font-weight: bold; padding: 150px 0 0 0;} /* Height of nav bar added to total height: 300 */
+
+/* Section Background Colors */
+#main-header,
+#main-footer  { background: #f1c40f;}
+#section01 		{ background: #2ecc71;}
+#section02 		{ background: #e74c3c;}
+#section03 		{ background: #16a085;}
+#section04 		{ background: #2c3e50;}

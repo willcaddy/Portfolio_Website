@@ -1,0 +1,21 @@
+@charset "utf-8";
+/* CSS Document */
+
+a {}
+  a:hover, a:focus {
+    color: #999 !important; }
+
+#blogContent {
+	width:80%;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#blog {
+	height:auto !important;
+	padding-bottom:50px !important;
+}
+
+#home {
+	padding-top:100px !important;
+}
