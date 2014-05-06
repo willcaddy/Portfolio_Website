@@ -1,6 +1,17 @@
 @charset "utf-8";
 /* CSS Document */
 
+body {
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-image:url(../img/bg.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
 a {}
   a:hover, a:focus {
     color: #999 !important; }
@@ -9,6 +20,7 @@ a {}
 	width:80%;
 	margin-left:auto;
 	margin-right:auto;
+	text-align:left;
 }
 
 #blog {
@@ -18,4 +30,13 @@ a {}
 
 #home {
 	padding-top:100px !important;
+}
+
+.heightAuto {
+	height:auto;
+}
+
+.sections {
+	height:auto;
+	padding-bottom:50px;
 }
