@@ -40,3 +40,9 @@ a {}
 	height:auto;
 	padding-bottom:50px;
 }
+
+#socialButtons {
+	width:auto;
+	margin-left:auto;
+	margin-right:auto;
+}
