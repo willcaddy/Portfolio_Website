@@ -2,14 +2,15 @@
 /* CSS Document */
 
 body {
-	-webkit-background-size: cover;
+	font-family: 'Roboto Slab', sans-serif;
+/*	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-image:url(../img/bg.jpg);
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-attachment: fixed;
-	background-width: 100%;
+	background-width: 100%;*/
 }
 
 a {}
@@ -51,4 +52,28 @@ a {}
 
 #meImage {
 	max-height:800px;
+}
+
+.borderImage {
+	display:block
+} 
+
+h1 {
+	font-family: 'Oswald', sans-serif;
+	font-size:32pt;
+	color: #8e001c;
+}
+
+h2 {
+	font-family: 'Oswald', sans-serif;
+	font-size:24pt;
+	color: #424242;
+}
+
+#meImage {
+	box-shadow: -3px 4px 5px 0px #242424;
+}
+
+#socialButtons {
+	padding-bottom:50px;
 }

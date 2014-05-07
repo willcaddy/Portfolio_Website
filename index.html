@@ -10,7 +10,9 @@
     <link rel="stylesheet" href="css/pagestyle.css" />
     <link rel="stylesheet" href="css/SocialNetworks.css" />
     <link rel="stylesheet" href="css/background.css" />
+    <link rel="stylesheet" href="css/contactForm.css" />
     <link href="http://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet" type="text/css">
+    <link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
     
        
 <!--    <script src="js/vendor/modernizr.js"></script>-->
@@ -26,7 +28,7 @@
           <li><a href="#cv" data-scroll>Curriculum Vitae</a></li>
           <li><a href="#bio" data-scroll>Bio</a></li>
           <li><a href="#blog" data-scroll>Blog</a></li>
-          <li><a href="#contact" data-scroll>Contact Details</a></li>
+          <li><a href="#contactForm" data-scroll>Contact Details</a></li>
         </ul>
       </nav>
     </header>
@@ -39,20 +41,33 @@
       <img id="meImage" src="img/me.jpg" alt="Portrait photo"> 
       </div>
       
-    </section>
+      <div>
+      
+      <h2>Will's the name, <br>Web Design and Development's the game!</h2>
+      
+      </div>
+      
+    </section> 
+    
     </div>
     
-    <div class="container">
-    <section id="cv" class="stuff1">
+  <img class="borderImage" src="img/sectionBorder.jpg" width="100%" height="84" alt="border">
+  
+<div class="container">
+  <section id="cv" class="stuff1">
       <h1>Curriculum Vitae</h1>
     </section>
     </div>
+    
+    <img class="borderImage" src="img/sectionBorder2.jpg" width="100%" height="84" alt="border">
     
     <div class="container">
     <section id="bio" class="stuff2">
       <h1>Bio</h1>
     </section>
     </div>
+    
+    <img class="borderImage" src="img/sectionBorder.jpg" width="100%" height="84" alt="border">
 
     <div class="container">
     <section id="blog" class="stuff1">
@@ -132,26 +147,49 @@ Now you know some of the main concepts of designing for today’s modern web, go
     </section>
     </div>
     
-    <div class="container">
-    <section id="contact" class="stuff2">
-    	
-      <h1>Contact Me!</h1>
+    <img class="borderImage" src="img/sectionBorder2.jpg" width="100%" height="84" alt="border">
     
-  	<div id="socialButtons">
+    <div class="container">
+    <section id="contactForm" class="stuff2">
+
+    <div id="contact">
+    
+    <h1>Contact Me!</h1>
+    
+	<div id="socialButtons">
     <button class="facebook" onClick="javascript:window.location.href='https://www.facebook.com/willcaddy24'"></button>
 	<button class="twitter" onClick="javascript:window.location.href='https://twitter.com/willcaddy'"></button>
 	<button class="in" onClick="javascript:window.location.href='https://www.linkedin.com/profile/view?id=256549988&trk=nav_responsive_tab_profile_pic'"></button>
     </div>
+    
+	<form action="#" method="post">
+		<fieldset>
+			<label for="name">Name:</label>
+			<input type="text" id="name" placeholder="Enter your full name" />
+			
+			<label for="email">Email:</label>
+			<input type="email" id="email" placeholder="Enter your email address" />
+			
+			<label for="message">Message:</label>
+			<textarea id="message" placeholder="What's on your mind?"></textarea>
+			
+			<input type="submit" value="Send message" />
+			
+		</fieldset>
+	</form>
+</div>
+    
+    
     </section>
     </div>
     
     <script src="js/vendor/jquery.js"></script>
-    <script src="js/foundation.min.js"></script>
+    <!--<script src="js/foundation.min.js"></script>-->
     <script src="js/fastclick.js"></script>
     <script src="js/scroll.js"></script>
     <script src="js/fixed-responsive-nav.js"></script>
-    <script>
+    <!--<script>
       $(document).foundation();
-    </script>
+    </script>-->
   </body>
 </html>
