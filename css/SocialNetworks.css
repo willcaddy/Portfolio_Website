@@ -22,7 +22,7 @@ button {
   margin-left:auto;
   margin-right:auto;
   left:30px;
-  position:relative;
+  /*position:relative;*/
   cursor:pointer;
   border: none;
   background: #109bce;
@@ -46,7 +46,7 @@ button:before {
   width:85px;
   height:90px;
   display:block;
-  position:absolute;
+  /*position:absolute;*/
   padding-top:10px;
   top:10px;
   text-shadow: 1px 1px 2px #07526e;

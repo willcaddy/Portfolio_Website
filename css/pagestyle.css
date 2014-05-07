@@ -9,7 +9,7 @@ body {
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-attachment: fixed;
-	background-size: cover;
+	background-width: 100%;
 }
 
 a {}
@@ -30,6 +30,8 @@ a {}
 
 #home {
 	padding-top:100px !important;
+	padding-bottom:50px !important;
+	height:auto !important;
 }
 
 .heightAuto {
@@ -41,8 +43,12 @@ a {}
 	padding-bottom:50px;
 }
 
-#socialButtons {
-	width:auto;
+#me {
+	width:70%;
 	margin-left:auto;
 	margin-right:auto;
+}
+
+#meImage {
+	max-height:800px;
 }

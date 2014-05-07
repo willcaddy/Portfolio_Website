@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="css/styles.css" /> 
     <link rel="stylesheet" href="css/pagestyle.css" />
     <link rel="stylesheet" href="css/SocialNetworks.css" />
+    <link rel="stylesheet" href="css/background.css" />
+    <link href="http://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet" type="text/css">
     
        
 <!--    <script src="js/vendor/modernizr.js"></script>-->
@@ -18,7 +20,6 @@
   </head>
   <body>
   <header>
-      <a href="#home" class="logo" data-scroll>Portfolio</a>
       <nav class="nav-collapse">
         <ul>
           <li class="active"><a href="#home" data-scroll>Home</a></li>
@@ -30,24 +31,31 @@
       </nav>
     </header>
 
-    <section id="home" class="sections">
+    <div class="container">
+    <section id="home" class="stuff2">
       <h1>William Cadwallader</h1>
-      
-      <div>
-      
-      <img src="img/me.jpg" alt="Portrait photo"> </div>
+       
+      <div id="me">      
+      <img id="meImage" src="img/me.jpg" alt="Portrait photo"> 
+      </div>
       
     </section>
-
-    <section id="cv">
+    </div>
+    
+    <div class="container">
+    <section id="cv" class="stuff1">
       <h1>Curriculum Vitae</h1>
     </section>
-
-    <section id="bio">
+    </div>
+    
+    <div class="container">
+    <section id="bio" class="stuff2">
       <h1>Bio</h1>
     </section>
+    </div>
 
-    <section id="blog">
+    <div class="container">
+    <section id="blog" class="stuff1">
       
       <h1>Blog</h1>
       
@@ -122,8 +130,11 @@ Now you know some of the main concepts of designing for today’s modern web, go
 <br>
 		</div>
     </section>
+    </div>
     
-    <section id="contact">
+    <div class="container">
+    <section id="contact" class="stuff2">
+    	
       <h1>Contact Me!</h1>
     
   	<div id="socialButtons">
@@ -131,11 +142,8 @@ Now you know some of the main concepts of designing for today’s modern web, go
 	<button class="twitter" onClick="javascript:window.location.href='https://twitter.com/willcaddy'"></button>
 	<button class="in" onClick="javascript:window.location.href='https://www.linkedin.com/profile/view?id=256549988&trk=nav_responsive_tab_profile_pic'"></button>
     </div>
-
-
-
-      
     </section>
+    </div>
     
     <script src="js/vendor/jquery.js"></script>
     <script src="js/foundation.min.js"></script>
