@@ -10,17 +10,21 @@
     <link rel="stylesheet" href="css/pagestyle.css" />
     <link rel="stylesheet" href="css/SocialNetworks.css" />
     <link rel="stylesheet" href="css/background.css" />
-    <link rel="stylesheet" href="css/contactForm.css" />
+    <link rel="stylesheet" href="css/owl.carousel.css" />
+    <link href="css/owl.theme.css" rel="stylesheet" type="text/css" />
+    <link href="css/owl.transitions.css" rel="stylesheet" type="text/css" />
+<!--    <link rel="stylesheet" href="css/contactForm.css" />-->
     <link href="http://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet" type="text/css">
-    <link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
-    
+    <link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>  
        
 <!--    <script src="js/vendor/modernizr.js"></script>-->
 	<script src="js/responsive-nav.js"></script>
-    
-   
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/owl.carousel.js"></script>
+  
   </head>
   <body>
+  
   <header>
       <nav class="nav-collapse">
         <ul>
@@ -30,20 +34,42 @@
           <li><a href="#blog" data-scroll>Blog</a></li>
           <li><a href="#contactForm" data-scroll>Contact Details</a></li>
         </ul>
-      </nav>
+      </nav>      
     </header>
-
+ 
     <div class="container">
     <section id="home" class="stuff2">
       <h1>William Cadwallader</h1>
-       
-      <div id="me">      
-      <img id="meImage" src="img/me.jpg" alt="Portrait photo"> 
-      </div>
       
-      <div>
+    <div id="owl-carousel">
+  <div class="item"> <img src="img/me.jpg" width="300" height="400" alt="My Photo"></div>
+  <div class="item"> <img src="img/browserIcons.jpg" width="auto" height="400" alt="Browser Logos"></div>
+  <div class="item"> <img src="img/webDesign.jpg" width="auto" height="400" alt="Website"></div>
+  <div class="item"> <img src="img/webDesign2.jpg" width="auto" height="400" alt="Web Design"></div>
+  <div class="item"> <img src="img/webDesign3.jpg" width="auto" height="400" alt="Web Design"></div>
+  
+    </div>
       
-      <h2>Will's the name, <br>Web Design and Development's the game!</h2>
+      <script>
+ 
+	$(document).ready(function() {
+	
+		$("#owl-carousel").owlCarousel({
+		
+			autoPlay: 5000, //Set AutoPlay to 3 seconds
+			
+			singleItem: true,
+			itemsDesktop : [1199,3],
+			itemsDesktopSmall : [979,3]
+		
+		});
+	
+	});
+ 
+</script>
+      
+      <h2>Will's the name, <br>
+Web Design and Development's the game!</h2>
       
       </div>
       
@@ -56,6 +82,19 @@
 <div class="container">
   <section id="cv" class="stuff1">
       <h1>Curriculum Vitae</h1>
+      
+    <div class="layers">
+    
+    <object data="assets/William Cadwallader CV for Web.pdf" type="application/pdf" width="100%" height="100%">
+ 
+  <p>It appears you don't have a PDF plugin for this browser.
+  No biggie... you can <a href="assets/William Cadwallader CV for Web.pdf">click here to
+  download the PDF file.</a></p>
+  
+</object>
+      
+    </div>
+      
     </section>
     </div>
     
@@ -150,40 +189,45 @@ Now you know some of the main concepts of designing for today’s modern web, go
     <img class="borderImage" src="img/sectionBorder2.jpg" width="100%" height="84" alt="border">
     
     <div class="container">
-    <section id="contactForm" class="stuff2">
+    	<section id="contactForm" class="stuff2">
 
     <div id="contact">
     
-    <h1>Contact Me!</h1>
-    
-	<div id="socialButtons">
-    <button class="facebook" onClick="javascript:window.location.href='https://www.facebook.com/willcaddy24'"></button>
-	<button class="twitter" onClick="javascript:window.location.href='https://twitter.com/willcaddy'"></button>
-	<button class="in" onClick="javascript:window.location.href='https://www.linkedin.com/profile/view?id=256549988&trk=nav_responsive_tab_profile_pic'"></button>
+        <h1>Contact Me!</h1>
+        
+            <div  class="form-container">
+            
+                <div class="form-title"><h2>Social Networks</h2></div>
+                
+                <div id="socialButtons">
+                
+                <a href="https://www.facebook.com/willcaddy24" target="_parent"><button class="facebook"></button></a>
+                
+                <a href="https://twitter.com/willcaddy" target="_parent"><button class="twitter"></button></a>
+                
+                <a href="https://www.linkedin.com/profile/view?id=256549988&trk=nav_responsive_tab_profile_pic" target="_parent"><button class="in"></button></a>
+                  
+                </div> 
+
+                <form method="post" action="php/contact.php">
+                    <div class="form-title"><h2>Email Me!</h2></div>
+                    <div class="form-title">Name</div>
+                    <input class="form-field" type="text" name="name" /><br />
+                    <div class="form-title">Email</div>
+                    <input class="form-field" type="text" name="email" /><br />
+                    <div class="form-title">Messege</div>
+                    <textarea class="form-field" cols="50" rows="4" name="messege"></textarea><br />
+                    <div class="submit-container">
+                    <input class="submit-button" type="submit" value="Submit" />
+                    </div>                    
+                </form>
+                
+                </div>
+            </div>   
+        </section>
     </div>
     
-	<form action="#" method="post">
-		<fieldset>
-			<label for="name">Name:</label>
-			<input type="text" id="name" placeholder="Enter your full name" />
-			
-			<label for="email">Email:</label>
-			<input type="email" id="email" placeholder="Enter your email address" />
-			
-			<label for="message">Message:</label>
-			<textarea id="message" placeholder="What's on your mind?"></textarea>
-			
-			<input type="submit" value="Send message" />
-			
-		</fieldset>
-	</form>
-</div>
     
-    
-    </section>
-    </div>
-    
-    <script src="js/vendor/jquery.js"></script>
     <!--<script src="js/foundation.min.js"></script>-->
     <script src="js/fastclick.js"></script>
     <script src="js/scroll.js"></script>

@@ -32,11 +32,23 @@ a {}
 #home {
 	padding-top:100px !important;
 	padding-bottom:50px !important;
+	height:70vh !important;
+	min-height:500px !important;
+}
+
+#cv {
 	height:auto !important;
+	padding-bottom:50px;
+}
+
+#bio {
+	height:75vh !important;
+	min-height:500px !important;	
 }
 
 .heightAuto {
-	height:auto;
+	height:auto !important;
+	min-height:100% !important;
 }
 
 .sections {
@@ -45,13 +57,15 @@ a {}
 }
 
 #me {
-	width:70%;
+	width:100%;
+	height:auto;
 	margin-left:auto;
 	margin-right:auto;
 }
 
 #meImage {
-	max-height:800px;
+	max-height: 800px;
+	box-shadow: -3px 4px 5px 0px #242424;
 }
 
 .borderImage {
@@ -66,14 +80,152 @@ h1 {
 
 h2 {
 	font-family: 'Oswald', sans-serif;
-	font-size:24pt;
+	font-size: 24pt;
 	color: #424242;
 }
 
-#meImage {
-	box-shadow: -3px 4px 5px 0px #242424;
+@media only screen and (max-width: 40em){
+	h2 {
+		font-family: 'Oswald', sans-serif;
+		font-size: 20pt;
+		color: #424242;
+	}
 }
 
 #socialButtons {
 	padding-bottom:50px;
+}
+
+.form-container {
+   border: 1px solid #f2e3d2;
+   background: #c9b7a2;
+   background: -webkit-gradient(linear, left top, left bottom, from(#f2e3d2), to(#c9b7a2));
+   background: -webkit-linear-gradient(top, #f2e3d2, #c9b7a2);
+   background: -moz-linear-gradient(top, #f2e3d2, #c9b7a2);
+   background: -ms-linear-gradient(top, #f2e3d2, #c9b7a2);
+   background: -o-linear-gradient(top, #f2e3d2, #c9b7a2);
+   background-image: -ms-linear-gradient(top, #f2e3d2 0%, #c9b7a2 100%);
+   -webkit-border-radius: 11px;
+   -moz-border-radius: 11px;
+   border-radius: 11px;
+   -webkit-box-shadow: rgba(000,000,000,0.9) 0 1px 2px, inset rgba(255,255,255,0.4) 0 1px 0;
+   -moz-box-shadow: rgba(000,000,000,0.9) 0 1px 2px, inset rgba(255,255,255,0.4) 0 1px 0;
+   box-shadow: rgba(000,000,000,0.9) 0 1px 2px, inset rgba(255,255,255,0.4) 0 1px 0;
+   font-family: 'Helvetica Neue',Helvetica,sans-serif;
+   text-decoration: none;
+   vertical-align: middle;
+   min-width:300px;
+   padding:20px;
+   width:400px;
+   margin-left:auto;
+   margin-right:auto;
+   }
+.form-field {
+   border: 1px solid #c9b7a2;
+   background: #e4d5c3;
+   -webkit-border-radius: 4px;
+   -moz-border-radius: 4px;
+   border-radius: 4px;
+   color: #725129;
+   -webkit-box-shadow: rgba(255,255,255,0.4) 0 1px 0, inset rgba(000,000,000,0.7) 0 1px 1px;
+   -moz-box-shadow: rgba(255,255,255,0.4) 0 1px 0, inset rgba(000,000,000,0.7) 0 1px 1px;
+   box-shadow: rgba(255,255,255,0.4) 0 1px 0, inset rgba(000,000,000,0.7) 0 1px 1px;
+   padding:8px;
+   margin-bottom:20px;
+   width:280px;
+   }
+.form-field:focus {
+   background: #fff;
+   color: #725129;
+   }
+.form-container h2 {
+   text-shadow: #fdf2e4 0 1px 0;
+   font-size:18px;
+   margin: 0 0 10px 0;
+   font-weight:bold;
+   text-align:center;
+    }
+.form-title {
+   margin-bottom:10px;
+   color: #725129;
+   text-shadow: #fdf2e4 0 1px 0;
+   }
+.submit-container {
+   margin:8px 0;
+   text-align:right;
+   }
+.submit-button {
+   border: 1px solid #332107;
+   background: #5c2f11;
+   background: -webkit-gradient(linear, left top, left bottom, from(#a87d48), to(#5c2f11));
+   background: -webkit-linear-gradient(top, #a87d48, #5c2f11);
+   background: -moz-linear-gradient(top, #a87d48, #5c2f11);
+   background: -ms-linear-gradient(top, #a87d48, #5c2f11);
+   background: -o-linear-gradient(top, #a87d48, #5c2f11);
+   background-image: -ms-linear-gradient(top, #a87d48 0%, #5c2f11 100%);
+   -webkit-border-radius: 6px;
+   -moz-border-radius: 6px;
+   border-radius: 6px;
+   -webkit-box-shadow: rgba(255,255,255,0.4) 0 1px 0, inset rgba(255,255,255,0.4) 0 1px 0;
+   -moz-box-shadow: rgba(255,255,255,0.4) 0 1px 0, inset rgba(255,255,255,0.4) 0 1px 0;
+   box-shadow: rgba(255,255,255,0.4) 0 1px 0, inset rgba(255,255,255,0.4) 0 1px 0;
+   text-shadow: #453608 0 1px 0;
+   color: #000000;
+   font-family: helvetica, serif;
+   padding: 8.5px 18px;
+   font-size: 14px;
+   text-decoration: none;
+   vertical-align: middle;
+   }
+.submit-button:hover {
+   border: 1px solid #332107;
+   text-shadow: #453608 0 1px 0;
+   background: #916e17;
+   background: -webkit-gradient(linear, left top, left bottom, from(#d9b366), to(#916e17));
+   background: -webkit-linear-gradient(top, #d9b366, #916e17);
+   background: -moz-linear-gradient(top, #d9b366, #916e17);
+   background: -ms-linear-gradient(top, #d9b366, #916e17);
+   background: -o-linear-gradient(top, #d9b366, #916e17);
+   background-image: -ms-linear-gradient(top, #d9b366 0%, #916e17 100%);
+   color: #fff;
+   }
+.submit-button:active {
+   text-shadow: #453608 0 1px 0;
+   border: 1px solid #332107;
+   background: #d9b366;
+   background: -webkit-gradient(linear, left top, left bottom, from(#916e17), to(#916e17));
+   background: -webkit-linear-gradient(top, #916e17, #d9b366);
+   background: -moz-linear-gradient(top, #916e17, #d9b366);
+   background: -ms-linear-gradient(top, #916e17, #d9b366);
+   background: -o-linear-gradient(top, #916e17, #d9b366);
+   background-image: -ms-linear-gradient(top, #916e17 0%, #d9b366 100%);
+   color: #fff;
+   }
+
+.layers {
+    text-align: left;
+    padding:1.618em;
+    margin-bottom:1.618em;
+    font-weight: bold;
+    margin:1em;
+	margin-left:auto;
+	margin-right:auto;
+	width:70%;
+	height:800px;
+
+	background: #f6e6b4; /* Old browsers */
+	background: -moz-linear-gradient(top,  #f6e6b4 0%, #eaad62 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f6e6b4), color-stop(100%,#eaad62)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #f6e6b4 0%,#eaad62 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #f6e6b4 0%,#eaad62 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #f6e6b4 0%,#eaad62 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #f6e6b4 0%,#eaad62 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f6e6b4', endColorstr='#eaad62',GradientType=0 ); /* IE6-9 */
+
+    box-shadow:
+        0 1px 1px rgba(0,0,0,0.25), /* The top layer shadow */
+        0 10px 0 -5px #eaad62, /* The second layer */
+        0 10px 1px -4px rgba(0,0,0,0.15), /* The second layer shadow */
+        0 20px 0 -10px #eaad62, /* The third layer */
+        0 20px 1px -9px rgba(0,0,0,0.15); /* The third layer shadow */
 }

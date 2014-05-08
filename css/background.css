@@ -1,14 +1,22 @@
 @charset "utf-8";
 /* CSS Document */
 
-body {padding: 0; margin: 0}
-.container section {height: 1000px;}
+body {
+	padding: 0; 
+	margin: 0
+}
+
+.container section {
+	height: 1000px;
+}
+
 .container section {
   position: relative;
   background-position: 50% 140px;
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
+
 .stuff2 {
   background-color: #d3ceaa;
 }

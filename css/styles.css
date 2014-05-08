@@ -16,9 +16,10 @@ p, blockquote, pre, dl, dt, dd, ol, ul, li, hr,
 fieldset, form, label, legend, th, td,
 article, aside, figure, footer, header, hgroup, menu, nav, section,
 summary, hgroup {
-  margin: 0;
-  padding: 0;
-  border: 0;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	position: relative;
 }
 
 a:active,
@@ -309,8 +310,3 @@ header {
   font-size: 24px;
   content: "\78"; /* Close icon */
 }
-
-
-
-
-
