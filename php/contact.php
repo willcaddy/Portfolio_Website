@@ -1,27 +1,22 @@
 <?php
+$emailSuccess = 0;
 
-// Contact subject
-$subject ="$subject"; 
+if(isset($_POST['name'])){
+	
+	$name = filter_var($_POST['name'],FILTER_SANITIZE_STRING);
+	$emailfrom = filter_var($_POST['email'],FILTER_SANITIZE_EMAIL);
+	$message = filter_var($_POST['message'],FILTER_SANITIZE_STRING);
 
-// Details
-$message="$detail";
+	$to = "willcaddy24@gmail.com";
+	$subject = "Portoflio Contact Form";
+	
+	$headers = 'From: '.$name .' <'.$emailfrom .'>' . "\r\n" .
+    'Reply-To: '.$emailfrom .' '. "\r\n" .
+    'X-Mailer: PHP/' . phpversion();
 
-// Mail of sender
-$mail_from="$customer_mail"; 
+	mail($to, $subject, $message, $headers);
 
-// From 
-$header="from: $name <$mail_from>";
-
-// Enter your email address
-$to ='willcaddy24@gmail.com';
-$send_contact=mail($to,$subject,$message,$header);
-
-// Check, if message sent to your email 
-// display message "We've recived your information"
-if($send_contact){
-echo "We've recived your contact information";
-}
-else {
-echo "ERROR";
+	$emailSuccess = 1;
+	
 }
 ?>
