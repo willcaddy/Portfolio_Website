@@ -1,17 +1,10 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <dwsync>
-<file name="foundation.css" server="ftp.willcaddy.worcestercomputing.com" local="130436089348478566" remote="130439564400000000" Dst="2" />
-<file name="foundation.min.css" server="ftp.willcaddy.worcestercomputing.com" local="130436089348638575" remote="130439564400000000" Dst="2" />
-<file name="normalize.css" server="ftp.willcaddy.worcestercomputing.com" local="130436089348808585" remote="130439564400000000" Dst="2" />
-<file name="navbar.css" server="ftp.willcaddy.worcestercomputing.com" local="130437492248812444" remote="130439564400000000" Dst="2" />
-<file name="ie.css" server="ftp.willcaddy.worcestercomputing.com" local="130437512689731597" remote="130439564400000000" Dst="2" />
-<file name="pagestyle.css" server="ftp.willcaddy.worcestercomputing.com" local="130442198673004369" remote="130442199000000000" Dst="2" />
-<file name="styles.css" server="ftp.willcaddy.worcestercomputing.com" local="130440400406127713" remote="130440478200000000" Dst="2" />
-<file name="SocialNetworks.css" server="ftp.willcaddy.worcestercomputing.com" local="130440198552882368" remote="130440208800000000" Dst="2" />
-<file name="background.css" server="ftp.willcaddy.worcestercomputing.com" local="130440143266940193" remote="130440162600000000" Dst="2" />
-<file name="contactForm.css" server="ftp.willcaddy.worcestercomputing.com" local="130439683071949744" remote="130439683200000000" Dst="2" />
-<file name="carousel.css" server="ftp.willcaddy.worcestercomputing.com" local="130440245841877144" remote="130440246000000000" Dst="2" />
-<file name="owl.carousel.css" server="ftp.willcaddy.worcestercomputing.com" local="130440361651771091" remote="130440478200000000" Dst="2" />
-<file name="owl.theme.css" server="ftp.willcaddy.worcestercomputing.com" local="130440361653071165" remote="130440478200000000" Dst="2" />
-<file name="owl.transitions.css" server="ftp.willcaddy.worcestercomputing.com" local="130440361653281177" remote="130440478200000000" Dst="2" />
+<file name="pagestyle.css" server="ftp.willcaddy.worcestercomputing.com" local="130446233543950617" remote="130446233400000000" Dst="2" />
+<file name="styles.css" server="ftp.willcaddy.worcestercomputing.com" local="130440400406127713" remote="130446189600000000" Dst="2" />
+<file name="SocialNetworks.css" server="ftp.willcaddy.worcestercomputing.com" local="130440198552882368" remote="130446189600000000" Dst="2" />
+<file name="background.css" server="ftp.willcaddy.worcestercomputing.com" local="130446233791004748" remote="130446233400000000" Dst="2" />
+<file name="owl.carousel.css" server="ftp.willcaddy.worcestercomputing.com" local="130440361651771091" remote="130446189600000000" Dst="2" />
+<file name="owl.theme.css" server="ftp.willcaddy.worcestercomputing.com" local="130440361653071165" remote="130446189600000000" Dst="2" />
+<file name="owl.transitions.css" server="ftp.willcaddy.worcestercomputing.com" local="130440361653281177" remote="130446189600000000" Dst="2" />
 </dwsync>

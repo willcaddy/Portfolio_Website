@@ -12,9 +12,6 @@
     <!--Style sheet for the navigation bar-->
     <link rel="stylesheet" href="css/styles.css" /> 
     
-    <!--Main Page stylesheet-->
-    <link rel="stylesheet" href="css/pagestyle.css" />
-    
     <!--Stylesheet for the social network buttons-->
     <link rel="stylesheet" href="css/SocialNetworks.css" />
     
@@ -26,18 +23,21 @@
     <link href="css/owl.theme.css" rel="stylesheet" type="text/css" />
     <link href="css/owl.transitions.css" rel="stylesheet" type="text/css" />
     
+    <!--Main Page stylesheet-->
+    <link rel="stylesheet" href="css/pagestyle.css" />
+    
     <!--Fonts for the body text and -->
     <link href="http://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet" type="text/css">
     <link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>  
        
     <!--Modernizr JavaScript file for some progressive enhhancment issues-->
-	<script src="js/vendor/modernizr.js"></script>
+	<script src="js/modernizr.js"></script>
     
     <!--JavaScript file used for the navigation bar-->
 	<script src="js/responsive-nav.js"></script>
     
     <!--jQery JavaScript API used with the carousel-->
-    <script src="js/vendor/jquery.js"></script>
+    <script src="js/jquery.js"></script>
     
     <!--JavaScript file for the carousel-->
     <script src="js/owl.carousel.js"></script>
@@ -149,7 +149,22 @@
     <div class="container">
         <section id="bio" class="stuff2">
         	<h1>Bio</h1>
-        </section>
+            
+                
+            <div id="bioContent">
+            	<!--Bio Image-->
+                <div id="bioImage">
+                	<img class="myBioImage" src="img/me2.jpg" alt="Bio Image"> 
+                </div>
+                
+                <!--Bio from week 2-->
+                <div id="bioText">
+                    Half Human, Half Geek, Will has the ability to control computer systems with just the power of his mind (OK, maybe a few hand movements). Through intensive training, Will is able to outdrive Lewis Hamilton with ease but decided to give him a break and further his knowledge of computing instead. Passionate about web development, games and video editing, Will works hard and strives to be the best he can be. <br><br>
+                    Interesting Fact:
+                    Will is a YouTube personality! He goes by the name of willcaddy and he uploads gaming let’s play videos and nerdy stuff!
+                </div>
+            </div>
+      </section>
     </div>
     
     <!--Bio section end-->
@@ -231,6 +246,8 @@
             Once you have your content you can then start designing with media queries and responsive breakpoints in mind. Breakpoints are browser widths that, once within the specified range, change the layout of the page. So for example you specify a minimum width of 320px for a mobile breakpoint, when the window size or screen size is below that width it will change the layout of the screen to the designed mobile layout. This becomes challenging when you take into account the amount of devices that are currently available. Also this becomes even more challenging when you start implementing embedded content. Embedded content can be made responsive though and all using CSS and HTML. Setting the styling up using percentages instead of fixed widths and heights and by implementing some other tweaks, embedded content such as YouTube Videos and Google Calendars can change size relative to your layout.
             Get out there!
             <br><br>
+            
+            <h3>Go Get'um Tiger!</h3>
             
             Now you know some of the main concepts of designing for today’s modern web, go get out there and get designing! I know doing this research myself has helped me understand the importance of having a design workflow and writing the content first (bet your sick of me saying that by now) as well as learning great design techniques and tools for making life that little bit easier. Hopefully this has helped you to!
             <br>

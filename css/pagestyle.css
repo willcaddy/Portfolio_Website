@@ -36,8 +36,30 @@ a {}
 }
 
 #bio {
-	height:75vh !important;
-	min-height:500px !important;	
+	height:auto !important;
+	padding-bottom:50px !important;
+	clear:both;
+	overflow:auto;	
+}
+
+#bioContent {
+	width:70%;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#bioText{
+	width:70%;
+	float:right;
+}
+
+#bioImage {
+	width:auto !important;
+	float:left;
+}
+
+.myBioImage {
+	height:60vh !important;
 }
 
 .heightAuto {

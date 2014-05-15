@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <dwsync>
-<file name="foundation.min.js" server="ftp.willcaddy.worcestercomputing.com" local="130436089349188607" remote="130439565000000000" Dst="2" />
-<file name="navbar.js" server="ftp.willcaddy.worcestercomputing.com" local="130437493146903811" remote="130439565000000000" Dst="2" />
-<file name="fastclick.js" server="ftp.willcaddy.worcestercomputing.com" local="130437512690011613" remote="130439564400000000" Dst="2" />
-<file name="fixed-responsive-nav.js" server="ftp.willcaddy.worcestercomputing.com" local="130437512690051616" remote="130439564400000000" Dst="2" />
-<file name="responsive-nav.js" server="ftp.willcaddy.worcestercomputing.com" local="130437512690071617" remote="130439565000000000" Dst="2" />
-<file name="scroll.js" server="ftp.willcaddy.worcestercomputing.com" local="130437512690111619" remote="130439565000000000" Dst="2" />
-<file name="SocialNetworks.js" server="ftp.willcaddy.worcestercomputing.com" local="130439277934376116" remote="130439565000000000" Dst="2" />
-<file name="carousel.js" server="ftp.willcaddy.worcestercomputing.com" local="130440225421129144" remote="130440246000000000" Dst="2" />
-<file name="jquery.carouFredSel-6.2.1.js" server="ftp.willcaddy.worcestercomputing.com" local="130440227436314406" remote="130440246000000000" Dst="2" />
-<file name="owl.carousel.js" server="ftp.willcaddy.worcestercomputing.com" local="130440361652251118" remote="130440478200000000" Dst="2" />
+<file name="jquery.js" server="ftp.willcaddy.worcestercomputing.com" local="130436089352868817" remote="130446189600000000" Dst="2" />
+<file name="modernizr.js" server="ftp.willcaddy.worcestercomputing.com" local="130436089352478795" remote="130446189600000000" Dst="2" />
+<file name="carousel.js" server="ftp.willcaddy.worcestercomputing.com" local="130440225421129144" remote="130446189600000000" Dst="2" />
+<file name="fastclick.js" server="ftp.willcaddy.worcestercomputing.com" local="130437512690011613" remote="130446189600000000" Dst="2" />
+<file name="fixed-responsive-nav.js" server="ftp.willcaddy.worcestercomputing.com" local="130437512690051616" remote="130446189600000000" Dst="2" />
+<file name="jquery.carouFredSel-6.2.1.js" server="ftp.willcaddy.worcestercomputing.com" local="130440227436314406" remote="130446189600000000" Dst="2" />
+<file name="navbar.js" server="ftp.willcaddy.worcestercomputing.com" local="130437493146903811" remote="130446189600000000" Dst="2" />
+<file name="owl.carousel.js" server="ftp.willcaddy.worcestercomputing.com" local="130440361652251118" remote="130446190200000000" Dst="2" />
+<file name="responsive-nav.js" server="ftp.willcaddy.worcestercomputing.com" local="130437512690071617" remote="130446190200000000" Dst="2" />
+<file name="scroll.js" server="ftp.willcaddy.worcestercomputing.com" local="130437512690111619" remote="130446190200000000" Dst="2" />
+<file name="SocialNetworks.js" server="ftp.willcaddy.worcestercomputing.com" local="130439277934376116" remote="130446190200000000" Dst="2" />
 </dwsync>
